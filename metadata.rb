@@ -1,6 +1,6 @@
 name 'httpd'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'J. Ángel'
+maintainer_email 'jangel@mail.com'
 license 'all_rights'
 description 'Installs/Configures httpd'
 long_description 'Installs/Configures httpd'

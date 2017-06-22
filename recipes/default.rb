@@ -4,15 +4,11 @@
 #
 # Copyright (c) 2017 The Authors, All Rights Reserved.
 
-# Instalación del paquete
-package 'httpd'
+# LLamada a la receta del paquete Apache
+include_recipe "httpd::install"
 
-# Creamos el fichero index.html
-file '/var/www/html/index.html' do
-  content '<h1>Welcome Home!</h1>'	
-end
+# LLamada a la receta de configuración
+include_recipe "httpd::configuration"
 
-# Iniciamos el servicio y lo dejamos siempre disponible
-service 'httpd' do
-  action [:enable, :start]
-end
+# Llamada a la receta de servicio
+include_recipe "httpd::service" 
