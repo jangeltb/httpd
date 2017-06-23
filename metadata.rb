@@ -1,10 +1,12 @@
-name 'httpd'
-maintainer 'J. Ángel'
-maintainer_email 'jangel@mail.com'
-license 'all_rights'
-description 'Installs/Configures httpd'
-long_description 'Installs/Configures httpd'
-version '0.1.0'
+name "httpd"
+maintainer "J. \u00C1ngel"
+maintainer_email "jangel@mail.com"
+license "all_rights"
+description "Installs/Configures httpd"
+long_description "Installs/Configures httpd"
+version "0.1.0"
+source_url "https://github.com/jangeltb/httpd.git"
+issues_url "https://github.com/jangeltb/httpd/issues"
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

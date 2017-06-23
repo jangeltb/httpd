@@ -7,8 +7,8 @@
 # LLamada a la receta del paquete Apache
 include_recipe "httpd::install"
 
-# LLamada a la receta de configuración
+# LLamada a la receta de configuracion
 include_recipe "httpd::configuration"
 
 # Llamada a la receta de servicio
-include_recipe "httpd::service" 
+include_recipe "httpd::service"

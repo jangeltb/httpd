@@ -5,6 +5,6 @@
 # Copyright (c) 2017 The Authors, All Rights Reserved.
 
 # Iniciamos el servicio y lo dejamos siempre disponible
-service 'httpd' do
+service "httpd" do
   action [:enable, :start]
 end
